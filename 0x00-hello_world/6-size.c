@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the size various types
- * Return: 0 if exited properly, otherwise non-zero
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 init main(void)
 {
