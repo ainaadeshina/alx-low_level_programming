@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	int n;
+	int n = 0;
 
-	for (n = 0; n <= 9; n++)
-		putchar((n % 10) + '0');
-		if (n == 9)
-			continue;
+	while (n < 10)
+		putchar(n + '0');
+		if (n < 9)
+			putchar(44);
+			putchar(32);
 
-		putchar(',');
-		putchar('');
+		n++;
 
 	putchar('\n');
 
