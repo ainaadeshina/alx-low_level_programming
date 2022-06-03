@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h> 
+#include <stdio.h>
 /**
  * main - main block
- * Description: Prints a random number and states the number is positive or negative
+ * Description: Prints a random number and states 
+ * the number is positive or negative
  * Return:0
  */
 int main(void)
@@ -15,9 +16,9 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 		printf("%d is positive\n", n);
-	else if (n<0)
+	else if (n < 0)
 		printf("%d is negative\n", n);
-	else 
+	else
 		printf("%d is zero\n", n);
 	return (0);
 }
