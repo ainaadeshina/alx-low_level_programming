@@ -1,11 +1,13 @@
-# include "main.h"
+#include "main.h"
+
 /**
- * main - prints the alphabets 10 times
- * Return: void
+ * main - prints alphabet 10 times
+ * Return:void
  */
+
 void print_alphabet_x10(void)
 {
-	int l, n;
+	int n, l;
 
 	n = 0;
 
@@ -15,7 +17,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(l);
 		}
-		n++
+		n++;
 		_putchar('\n');
 	}
 }
