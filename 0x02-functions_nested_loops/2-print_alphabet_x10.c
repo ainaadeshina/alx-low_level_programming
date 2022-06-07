@@ -1,7 +1,7 @@
 # include "main.h"
 /**
  * main - prints the alphabets 10 times
- * Return: 10x a to z
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(l);
 		}
-		n++;
 		_putchar('\n');
+		n++
 	}
 }
