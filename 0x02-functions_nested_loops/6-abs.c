@@ -1,4 +1,4 @@
-# include "man.h"
+# include "main.h"
 /**
  * _abs - Calculates the absolute value of an integer.
  * @n: The integer to be calculated.
