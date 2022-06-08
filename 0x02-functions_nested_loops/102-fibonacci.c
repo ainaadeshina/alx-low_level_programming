@@ -18,7 +18,7 @@ int main(void)
 		f2 = s;
 
 		if (c == 49)
-			printf"\n");
+			printf("\n");
 		else
 			printf(", ");
 	}
