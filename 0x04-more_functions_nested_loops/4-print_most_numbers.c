@@ -3,6 +3,7 @@
 /**
  * print_most_numbers - prints numbers 0 to 9,excluding 2 and 4.
  * Description; Can use _putchar only twice
+ * Return: 0
  */
 void print_most_numbers(void)
 {
@@ -16,5 +17,5 @@ void print_most_numbers(void)
 
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
